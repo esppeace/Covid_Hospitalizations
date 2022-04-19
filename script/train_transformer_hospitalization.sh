@@ -9,8 +9,8 @@ echo "Run on GPU $GPUID"
 # data
 PROJECT_ROOT=$(dirname "$(readlink -f "$0")")/..
 echo $PROJECT_ROOT
-STATE_DATA_ROOT=$PROJECT_ROOT/dataset/CDC_2021_Jan/
-COUNTY_DATA_ROOT=$PROJECT_ROOT/dataset/CDC_2021_Jan/
+STATE_DATA_ROOT=$PROJECT_ROOT/dataset/CDC/
+COUNTY_DATA_ROOT=$PROJECT_ROOT/dataset/CDC/
 echo $DATA_ROOT
 
 # model
